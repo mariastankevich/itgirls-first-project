@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2232bf4e-2812-4272-8b68-0d91388d85ec" name="Changes" comment="update at 29.09.2024 1st Code Hello It Girls">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/tringle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/Char3Typs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/HelloItGirls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/String2Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/boxingUnboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/stringoperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/variables/unooperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week3/Programmer.java" afterDir="false" />
+    <list default="true" id="2232bf4e-2812-4272-8b68-0d91388d85ec" name="Changes" comment="week 3 learning code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/ProgrammerConstractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3/ProgrammerConstractorDefaultCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloItGirls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +37,9 @@
     &quot;accountId&quot;: &quot;6cd3ed06-e3a9-431c-aace-61ace9251a6e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -56,8 +52,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Char3Typs.executor": "Run",
+    "Application.ConstractorProgrammer.executor": "Run",
     "Application.HelloItGirls.executor": "Run",
     "Application.Programmer.executor": "Run",
+    "Application.ProgrammerConstractorDefaultCustomer.executor": "Run",
     "Application.String2Types.executor": "Run",
     "Application.boxing.executor": "Run",
     "Application.boxingUnboxing.executor": "Run",
@@ -74,7 +72,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Programmer">
+  <component name="RunManager" selected="Application.ProgrammerConstractorDefaultCustomer">
     <configuration name="Programmer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.Programmer" />
       <module name="itgirls-first-project" />
@@ -88,9 +86,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boxingUnboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variables.boxingUnboxing" />
+    <configuration name="ProgrammerConstractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.ProgrammerConstractor" />
       <module name="itgirls-first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgrammerConstractorDefaultCustomer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.ProgrammerConstractorDefaultCustomer" />
+      <module name="itgirls-first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="variables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tringle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.tringle" />
-      <module name="itgirls-first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgrammerConstractorDefaultCustomer" />
+        <item itemvalue="Application.ProgrammerConstractor" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.stringoperations" />
         <item itemvalue="Application.unooperations" />
-        <item itemvalue="Application.tringle" />
-        <item itemvalue="Application.boxingUnboxing" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1727789239079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="week 3 learning code">
+      <option name="closed" value="true" />
+      <created>1728383011303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728383011303</updated>
+    </task>
+    <task id="LOCAL-00004" summary="week 3 learning code">
+      <option name="closed" value="true" />
+      <created>1728383124251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728383124251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update at 29.09.2024 1st Code Hello It Girls" />
-    <option name="LAST_COMMIT_MESSAGE" value="update at 29.09.2024 1st Code Hello It Girls" />
+    <MESSAGE value="week 3 learning code" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3 learning code" />
   </component>
 </project>
